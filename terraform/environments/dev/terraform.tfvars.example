@@ -1,0 +1,13 @@
+# Environment Configuration
+environment_prefix   = "dev"
+workload             = "terraform-sample"
+location             = "eastus"
+app_service_os_type  = "Linux"
+app_service_sku_name = "B1"
+
+# Tags
+tags = {
+  Project    = "Terraform Sample"
+  Owner      = "Platform Team"
+  CostCenter = "Engineering"
+}
